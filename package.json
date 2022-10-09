@@ -1,22 +1,16 @@
 {
   "name": "live-state-react",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "0.0.0",
+  "author": "Parker Rueve",
+  "license": "MIT",
+  "description": "React Hook for live_state",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aparkerdavid/live-state-react.git"
   },
-  "keywords": [],
-  "author": "Parker Rueve",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aparkerdavid/live-state-react/issues"
+  "scripts": {
+    "build": "tsc"
   },
-  "homepage": "https://github.com/aparkerdavid/live-state-react#readme",
   "dependencies": {
     "valtio": "^1.7.1"
   },
